@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>App下载和账号注册</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/lib_js_css/sui-mobile/dist/css/sm.min.css">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name ="apple-mobile-web-app-status-bar-style" content ="black">
+        <meta name="apple-touch-fullscreen" content="yes" />
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/tpl_img/icon.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/tpl_img/favicon.ico" type="image/x-icon" />
+        <link rel="Bookmark" href="https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/tpl_img/favicon.ico" type="image/x-icon" />
+        <meta name="renderer" content="webkit|ie-comp|ie-stand">
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>if (typeof module === 'object') {window.jQuery = window.$ = module.exports;};</script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    </head>
+<body>
+<div class="page-group"><div class="page"></div></div>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/lib_js_css/sui-mobile/dist/js/sm.min.js"></script>
+<script>
+var laset_ver='0912.1';
+var WL='web';
+var static_file_suffix='?'+laset_ver; 
+var cdn_min='.min';
+if(window.location.port){
+    if (window.location.port!='80'){
+        console.log("本地port:"+window.location.port);
+        WL='local';
+        cdn_min='';
+        static_file_suffix='?'+Math.random();
+    }
+}
+if (WL=='local'){
+    $.getScript('tpl_Js_ac/_initialization.js'+static_file_suffix, function(){});
+}else{
+    $.getScript('https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/tpl_Js_ac/_initialization.min.js'+static_file_suffix, function(){});
+}
+</script>
+
