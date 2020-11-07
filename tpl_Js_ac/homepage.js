@@ -27,7 +27,7 @@ var portable_html = "因为我们没有办法适配所有设备，所以我们�
 var p_set = {
         'android': {
             'name': '安卓手机','button_name': "下载安卓版",'dl_link_name': '下载 看看电影.apk',
-            'dl_link_url': 'http://download.kkdy2021.xyz/kkdy.Phone.2.2.apk',
+            'dl_link_url': 'http://download.kkdy2021.xyz/kkdy.Phone2.3.apk',
             'html': "下载后是apk文件，请在设置中允许安装未知来源的应用程序，否则不能安装。   <br>   部分设备提示版本更新，忽略即可。不影响正常使用。   <br>   通常在 系统设置 找到 未知来源 并勾选，不同品牌手机设置项目位置差异大，在设置中搜索或查看 系统安全 或 应用程序配置 或 未知来源应用权限管理列表 等位置。因为没有在对应品牌的安卓手机市场上架，所以需要允许安装未知来源软件。   "
         },
         'windows': {
