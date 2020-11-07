@@ -63,7 +63,7 @@ var tpl_Js_ac={
 	};
 /** 测试站  区分本地测试 还是服务器  */
 var api_vhost={
-	 'web':'http://dl.kkdy.site/_api_vhost_php_sqlite/api_vhost.php',
+	 'web':'http://api.kkdy2021.xyz/_api_vhost_php_sqlite/api_vhost.php',
 	 'local':'http://TestUrl/_api_vhost_php_sqlite/api_vhost.php'
 	};
 	//本地测试情况下 把域名里面的 html替换为vhost
