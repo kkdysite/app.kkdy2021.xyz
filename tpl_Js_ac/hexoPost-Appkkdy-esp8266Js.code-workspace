@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../blog.leiyanhui.com/source/_posts"
+		},
+		{
+			"path": "../../../Esp8266Js/Code"
+		}
+	],
+	"settings": {}
+}

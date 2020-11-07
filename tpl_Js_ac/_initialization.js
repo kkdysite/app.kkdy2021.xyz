@@ -32,10 +32,10 @@ notecontent+='[08-19 20:30]修复分享的二维码的bug<br>';
 notecontent+='[08-16 16:10]修复播放记录不能自动更新的bug<br>[08-13 23:30]新增资源库(天空云)<br>';
 notecontent+='</div>';
 
-var SharpUrl_dl='http://app.kkdy.website/';
-var SharpUrl_reg='http://app.kkdy.website/#page_reg';
-var SharpUrl_dl_uid='http://app.kkdy.website/?uid=UID';
-var SharpUrl_reg_uid='http://app.kkdy.website/?uid=UID#page_reg';
+var SharpUrl_dl='http://app.kkdy2021.xyz/';
+var SharpUrl_reg='http://app.kkdy2021.xyz/#page_reg';
+var SharpUrl_dl_uid='http://app.kkdy2021.xyz/?uid=UID';
+var SharpUrl_reg_uid='http://app.kkdy2021.xyz/?uid=UID#page_reg';
 var Invitation_code_prefix=9900; //邀请码前缀 ★
 
 var app_name={'web':'看看电影.com','local':'测试_看看电影','bak':'看看电影(备用)'};
@@ -72,7 +72,7 @@ var localStor_name_u_played='played';
 var localStor_name_u_portable_fav='u_portable_fav2020';
 
 //var static_file_suffix ="";
-var portable_url='app.kkdy.website/p';
+var portable_url='app.kkdy2021.xyz/p';
 
 //解析服务器
 var ParseServ1="https://api.fenglinys.net/?url=";
