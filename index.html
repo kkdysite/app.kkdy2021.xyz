@@ -5,13 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>App下载和账号注册</title>
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/lib_js_css/sui-mobile/dist/css/sm.min.css">
+        <link rel="stylesheet" href="ib_js_css/sui-mobile/dist/css/sm.min.css">
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name ="apple-mobile-web-app-status-bar-style" content ="black">
         <meta name="apple-touch-fullscreen" content="yes" />
-        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/tpl_img/icon.png">
-        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/tpl_img/favicon.ico" type="image/x-icon" />
-        <link rel="Bookmark" href="https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/tpl_img/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="tpl_img/icon.png">
+        <link rel="shortcut icon" href="tpl_img/favicon.ico" type="image/x-icon" />
+        <link rel="Bookmark" href="tpl_img/favicon.ico" type="image/x-icon" />
         <meta name="renderer" content="webkit|ie-comp|ie-stand">
         <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script>if (typeof module === 'object') {window.jQuery = window.$ = module.exports;};</script>
@@ -23,7 +23,7 @@
 <div class="page-group"><div class="page"></div></div>
 </body>
 </html>
-<script src="https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/lib_js_css/sui-mobile/dist/js/sm.min.js"></script>
+<script src="lib_js_css/sui-mobile/dist/js/sm.min.js"></script>
 <script>
 var laset_ver='0912.1';
 var WL='web';
@@ -37,10 +37,6 @@ if(window.location.port){
         static_file_suffix='?'+Math.random();
     }
 }
-if (WL=='local'){
-    $.getScript('tpl_Js_ac/_initialization.js'+static_file_suffix, function(){});
-}else{
-    $.getScript('https://cdn.jsdelivr.net/gh/kkdysite/ServMian0827@master/tpl_Js_ac/_initialization.min.js'+static_file_suffix, function(){});
-}
+$.getScript('tpl_Js_ac/_initialization.js'+static_file_suffix, function(){});
 </script>
 
