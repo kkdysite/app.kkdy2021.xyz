@@ -33,12 +33,12 @@ var p_set = {
         'windows': {
             'name': 'Win电脑','button_name': "下载Win电脑版",'dl_link_name': '下载 看看电影 安装包<span> 网盘 </span>',
             'dl_link_url': 'https://kkdy.lanzous.com/b00trimah',
-            'html': "备用下载地址：<a href='http://download.kkdy2021.xyz/kkdy.site.Win32.exe' target='_bank' external>CF镜像下载（慢）</a> <br>部分电脑可能会提示检查风险，请点其他 允许运行即可。 <br> 注意：基于win10开发，兼容win7（需要用兼容性模式运行) "
+            'html': "旧版本将在2020年11月10日失效，新版本尚未提供。旧版本备用下载地址：<a href='http://download.kkdy2021.xyz/kkdy.site.Win32.exe' target='_bank' external>CF镜像下载（慢）</a> <br>部分电脑可能会提示检查风险，请点其他 允许运行即可。 <br> 注意：基于win10开发，兼容win7（需要用兼容性模式运行) "
         },
         'mac': {
             'name': 'mac电脑','button_name': "下载mac版本",'dl_link_name': '下载 看看电影.app<span> 网盘 </span>',
             'dl_link_url': 'https://kkdy.lanzous.com/b00trik8d',
-            'html': "备用下载地址：<a href='http://download.kkdy2021.xyz/kkdy.site.MacApp.zip' target='_bank' external>CF镜像直连下载（慢）</a><br>mac版下载后解压，打开访达，拖动到应用程序里面。首次运行可能会提示安全风险，无法打开。需要在系统偏好设置 安全与隐私 打开，以后可以正常打开。<br>基于macos10.15.3开发，其他版本如无法使用请使用免安装版"
+            'html': "旧版本将在2020年11月10日失效，新版本尚未提供。备用下载地址：<a href='http://download.kkdy2021.xyz/kkdy.site.MacApp.zip' target='_bank' external>CF镜像直连下载（慢）</a><br>mac版下载后解压，打开访达，拖动到应用程序里面。首次运行可能会提示安全风险，无法打开。需要在系统偏好设置 安全与隐私 打开，以后可以正常打开。<br>基于macos10.15.3开发，其他版本如无法使用请使用免安装版"
         },
         'ios': {
             'name': 'IOS设备','button_name': "安装ios版本",'dl_link_name': '','dl_link_url': '',
@@ -62,12 +62,9 @@ var p_set = {
         },
 
         'tv': {
-            'name': 'tv版本',
-            'button_name': "使用免安装版",
-           
-            'dl_link_name': '',
-            'dl_link_url': '',
-            'html': "机顶盒首选使用安卓版本，如果不可以使用请选择免安装版本<br>" + portable_html
+            'name': 'tv版本','button_name': "下载安卓TV版",'dl_link_name': '下载 看看电影X5.apk',
+            'dl_link_url': 'http://download.kkdy2021.xyz/tv.x5_1.2.apk',
+            'html': "下载后是apk文件，需要使用Usb或者wifi推送等方式安装到机顶盒或电视等设备。设备遥控器需要支持飞鼠操作。<br>如果设备上有安装微信qq等，即已存在腾讯x5内核，本app可以直接正常使用，如果没有X5内核，视频会无法自动全屏播放，部分设备内核较老的情况下甚至可能会直接无法播放。需要在联网状态打开本app 会自动在后台加载腾讯x5内核 根据网络不同可能需要3-7分钟。安装好x5后没有任何提示，下次打开本app即生效。 <br>另外在所有可以安装高版本浏览器的设备上，均可使用免安装包播放视频。"
         },
 
         'portable': {
