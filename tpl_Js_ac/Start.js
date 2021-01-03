@@ -84,8 +84,8 @@ var ParseServ3="https://jx.fuxing56.com/beiyong/?url=";
 var ParseServ4="https://jx.yunboys.cn/?url=";
 //播放器配置
 var players_url = {
-	"kuyun": ["kuyun", "欧凯云", "-", "-", "-", "-"],
-	"tkm3u8": ["tkm3u8", "天空云", "https://jx.huishij.com/yun/?url=", "https://jx.huishij.com/yun/?url=", "https://jx.huishij.com/yun/?url=", "https://jx.huishij.com/yun/?url="],
+	"ckm3u8": ["ckm3u8", "欧凯云", "-", "-", "-", "-"],
+	"tkm3u8": ["tkm3u8", "天空云", "-", "-", "-", "-"],
 	"qq": ["qq", "腾讯", ParseServ1, ParseServ2, ParseServ3, ParseServ4],
 	"youku": ["youku", "优酷", ParseServ1, ParseServ2, ParseServ3, ParseServ4],
 	"qiyi": ["qiyi", "爱奇艺", ParseServ1, ParseServ2, ParseServ3, ParseServ4],
