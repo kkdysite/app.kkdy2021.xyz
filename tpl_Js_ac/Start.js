@@ -81,12 +81,14 @@ var portable_url='app.kkdy2021.xyz/p';
 //解析服务器
 var ParseServ1="https://api.fenglinys.net/?url=";
 var ParseServ2="http://vip.ojbkjx.com?url=";
-var ParseServ3="https://jx.fuxing56.com/beiyong/?url=";
+var ParseServ3="https://vip.ikjiexi.top/?url=";
 var ParseServ4="https://jx.yunboys.cn/?url=";
 //播放器配置
 var players_url = {
 	"ckm3u8": ["ckm3u8", "欧凯云", "-", "-", "-", "-"],
 	"tkm3u8": ["tkm3u8", "天空云", "-", "-", "-", "-"],
+	"tkm3u8": ["bjm3u8", "八戒云", "-", "-", "-", "-"],
+	"tkm3u8": ["dbm3u8", "杜拜云", "-", "-", "-", "-"],
 	"qq": ["qq", "腾讯", ParseServ1, ParseServ2, ParseServ3, ParseServ4],
 	"youku": ["youku", "优酷", ParseServ1, ParseServ2, ParseServ3, ParseServ4],
 	"qiyi": ["qiyi", "爱奇艺", ParseServ1, ParseServ2, ParseServ3, ParseServ4],
