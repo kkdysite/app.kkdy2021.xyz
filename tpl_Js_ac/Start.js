@@ -80,7 +80,7 @@ var portable_url='app.kkdy2021.xyz/p';
 
 //解析服务器
 var ParseServ1="https://api.fenglinys.net/?url=";
-var ParseServ2="https://api.3jx.top/vip/?url=";
+var ParseServ2="http://vip.ojbkjx.com?url=";
 var ParseServ3="https://jx.fuxing56.com/beiyong/?url=";
 var ParseServ4="https://jx.yunboys.cn/?url=";
 //播放器配置
