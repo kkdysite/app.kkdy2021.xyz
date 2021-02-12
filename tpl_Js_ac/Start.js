@@ -16,10 +16,10 @@ var loader_time={
 };
 /* 首页公告 */
 var notetitle='欢迎使用最新版本 看看电影.com';
-var notecontent='近期注册的会员均为永久有效。新版app极致精简，去掉了一些不常用功能，请从搜索开始使用。';
+var notecontent='近期注册的会员均为永久有效。';
+notecontent+='<br>因为适配新版app，您现在使用的app图片显示功能受影响，新版app将于近期发布。如果尝鲜使用新版app请留言或者邮件联系。<br>';
 notecontent+='<br>如您有建议和反馈，欢迎留言给我们。';
 notecontent+='<br>最后更新: 2022.'+laset_ver+'<a href="javascript:Div_show_hide(\'MoreNote\',\'openMoreNote\',\' 详细 \')" class="openMoreNote"> 详细 </a>';
-notecontent+='<br>因为适配新版app，您现在使用的app图片显示功能受影响，新版app将于近期发布<br>';
 notecontent+='<div class="hide MoreNote">';
 notecontent+='影片数据均由第三方资源库平台提供,1-6小时间隔自动同步。一般晚上10-11点左右资源库会集中更新。';
 notecontent+='<div style="text-align: center;">==== 最近更新 ====</div>';
