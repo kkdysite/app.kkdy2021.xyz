@@ -16,12 +16,12 @@ var loader_time={
 };
 /* 首页公告 */
 var notetitle='欢迎使用最新版本 看看电影.com';
-var notecontent='近期注册的会员均为永久有效。';
+var notecontent='近期注册的会员均为永久有效。受新版app适配影响，您现在使用的版本图片显示功能受影响其他功能正常。新版app正在小范围测试，将支持投屏和离线下载、分类筛选、准确记录播放进度等功能，如果尝鲜使用新版app加入测试组，请留言或者邮件联系。';
 notecontent+='<br>如您有建议和反馈，欢迎留言给我们。';
 notecontent+='<br>最后更新: 2022.'+laset_ver+'<a href="javascript:Div_show_hide(\'MoreNote\',\'openMoreNote\',\' 详细 \')" class="openMoreNote"> 详细 </a>';
 notecontent+='<div class="hide MoreNote">';
 notecontent+='影片数据均由第三方资源库平台提供,1-6小时间隔自动同步。一般晚上10-11点左右资源库会集中更新。';
-notecontent+='<div style="text-align: center;">==== 最近更新 ====</div>';。。。。。。。
+notecontent+='<div style="text-align: center;">==== 最近更新 ====</div>';
 notecontent+='[02-13 00:15]修正部分播放源，更新解析线路<br>';
 notecontent+='[01-03 12:45]调整播放器 清空收藏夹 重新采集数据<br>';
 notecontent+='[11-02 18:18]1.更新ios和安卓版以便适配新服务器<br>  2.上线机顶盒智能电视x5版本（飞鼠操作）<br>';
