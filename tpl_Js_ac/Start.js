@@ -17,7 +17,7 @@ var loader_time={
 /* 首页公告 */
 var notetitle='欢迎使用最新版本 看看电影.com';
 var notecontent='近期注册的会员均为永久有效。';
-notecontent+='<br>受新版app适配影响，您现在使用的app图片显示功能受影响其他功能正常，现有版本app数据会自动更新，但功能停止维护。新版app正在小范围测试，将支持投屏和离线下载、分类筛选、准确记录播放进度等功能，如果尝鲜使用新版app加入测试组，请留言或者邮件联系。';
+notecontent+='<br>受新版app适配影响，您现在使用的版本图片显示功能受影响其他功能正常。新版app正在小范围测试，将支持投屏和离线下载、分类筛选、准确记录播放进度等功能，如果尝鲜使用新版app加入测试组，请留言或者邮件联系。';
 notecontent+='<br>如您有建议和反馈，欢迎留言给我们。';
 notecontent+='<br>最后更新: 2022.'+laset_ver+'<a href="javascript:Div_show_hide(\'MoreNote\',\'openMoreNote\',\' 详细 \')" class="openMoreNote"> 详细 </a>';
 notecontent+='<div class="hide MoreNote">';
